@@ -8,8 +8,8 @@ A Google Chrome Extension to add a timer to practice speed problem solving on Co
 ## Preview
 
 <p float="left">
-<img src='./images/timerpage.png' width="60%"/>    
-<img src='./images/browseraction.png' width="15%"/> 
+<img src='./timerpage.png' width="60%"/>    
+<img src='./browseraction.png' width="15%"/> 
 </p>
 
 ## Whats new ?
