@@ -7,8 +7,8 @@
   "permissions": ["storage"],
   "content_scripts": [
     {
-      "css": ["css/styles.css"],
-      "js": ["js/content.js"],
+      "css": ["styles.css"],
+      "js": ["content.js"],
       "matches": [
         "https://codeforces.com/problemset/problem/*",
         "https://codeforces.com/contest/*/*"
@@ -16,16 +16,16 @@
     }
   ],
   "background": {
-    "scripts": ["js/background.js"]
+    "scripts": ["background.js"]
   },
   "browser_action": {
     "default_title": "Select timer for problems",
-    "default_icon": "images/Codeforces Countdown.jpg",
-    "default_popup": "html/popup.html"
+    "default_icon": "Codeforces Countdown.jpg",
+    "default_popup": "popup.html"
   },
   "icons": {
-    "16": "images/Codeforces Countdown.jpg",
-    "48": "images/Codeforces Countdown.jpg",
-    "128": "images/Codeforces Countdown.jpg"
+    "16": "Codeforces Countdown.jpg",
+    "48": "Codeforces Countdown.jpg",
+    "128": "Codeforces Countdown.jpg"
   }
 }
